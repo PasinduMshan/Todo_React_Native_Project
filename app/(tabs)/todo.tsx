@@ -65,7 +65,7 @@ export default function TodoScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#f7f7f7",
+        backgroundColor: "#f0f8ff", // Light blue background for the container
         paddingTop: 40,
         paddingHorizontal: 20,
     },
@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
         borderRadius: 12,
         paddingLeft: 15,
         fontSize: 16,
-        backgroundColor: "#fff",
+        backgroundColor: "#fff", // White background for input
         marginBottom: 15,
         shadowColor: "#000",
         shadowOpacity: 0.1,
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
         marginBottom: 15,
     },
     addButton: {
-        backgroundColor: "#4CAF50",
+        backgroundColor: "#4CAF50", // Green button for adding todos
         paddingVertical: 12,
         borderRadius: 8,
         alignItems: "center",
@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
         marginBottom: 20,
         paddingVertical: 10,
         borderRadius: 8,
-        backgroundColor: "#3498db",
+        backgroundColor: "#3498db", // Blue button for viewing completed tasks
         alignItems: "center",
     },
     viewCompletedText: {
@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         paddingVertical: 12,
         paddingHorizontal: 10,
-        backgroundColor: "#fff",
+        backgroundColor: "#fff", // White background for todo items
         borderRadius: 8,
         marginBottom: 10,
         shadowColor: "#000",
@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
     },
     deleteText: {
         fontSize: 24,
-        color: "#e74c3c",
+        color: "#e74c3c", // Red color for the delete button
         fontWeight: "bold",
     },
 });
